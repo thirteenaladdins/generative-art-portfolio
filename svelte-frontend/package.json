@@ -30,6 +30,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"package.json": "^0.0.0"
+		"package.json": "^0.0.0",
+		"svelte-routing": "^1.6.0"
 	}
 }
