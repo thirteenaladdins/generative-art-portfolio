@@ -35,15 +35,17 @@
   }
 </style>
 
-<h1 >generative art</h1>
-<NavBar/>
+<div class="container">
+  <h1 >generative art</h1>
+  <NavBar/>
+  <img src={banshee} alt=""
+    loading="lazy"
+    decoding="async"
+    width={thumbnailWidth}
+    height={thumbnailHeight}
+  />
+</div>
 
-<img src={banshee} alt=""
-  loading="lazy"
-  decoding="async"
-  width={thumbnailWidth}
-  height={thumbnailHeight}
-/>
 
 
 
