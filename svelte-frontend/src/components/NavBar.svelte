@@ -43,7 +43,7 @@
   <nav>
     <a class="nav-link {currentActiveLink === '/' ? 'active-link' : ''}" href="/" on:click={updateActiveLink}>Home</a>
     <a class="nav-link {currentActiveLink=== '/artwork' ? 'active-link' : ''}" href="/artwork" on:click={updateActiveLink}>Artwork</a>
-    <a class="nav-link" href="/https://migfrig.bigcartel.com">Shop<ArrowUpRight/></a>
+    <a class="nav-link" href="https://migfrig.bigcartel.com">Shop<ArrowUpRight/></a>
     <a class="nav-link {currentActiveLink === '/about' ? 'active-link' : ''}" href="/about" on:click={updateActiveLink}>About</a>
   </nav>
   
